@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samarth Tours and Travels | Premium Travel Services Across India</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Samarth<span>Tours</span></h1>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Our Fleet</a></li>
+                <li><a href="#contact">Book Now</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Premium Travel Experiences Across India</h2>
+            <p>Experience comfort, reliability, and exceptional service with our well-maintained fleet and professional drivers. Your journey begins with Samartha Tours and Travels.</p>
+            <a href="#contact" class="cta-btn">Book Your Ride Now</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>We offer a range of travel solutions to meet your needs, ensuring comfort and reliability every step of the way.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-car-alt"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Vehicle Options</h3>
+                        <ul>
+                            <li>Sedans - Comfort for 4 passengers</li>
+                            <li>SUVs - Spacious and powerful</li>
+                            <li>Swift - Economical choice</li>
+                            <li>Ertiga - Family favorite</li>
+                            <li>Scorpio M2D - Rugged and reliable</li>
+                            <li>Mini buses - Group travel made easy</li>
+                            <li>Travellers - For larger parties</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Travel Options</h3>
+                        <ul>
+                            <li>Pickup only - We'll get you there</li>
+                            <li>Drop only - Start your journey with us</li>
+                            <li>Round trips - Complete door-to-door service</li>
+                            <li>Hourly rentals - Flexible timing</li>
+                            <li>Outstation trips - Explore beyond the city</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-concierge-bell"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Premium Amenities</h3>
+                        <ul>
+                            <li>Experienced, professional drivers</li>
+                            <li>Complimentary bottled water</li>
+                            <li>Clean, well-sanitized vehicles</li>
+                            <li>Punctual and reliable service</li>
+                            <li>24/7 customer support</li>
+                            <li>Flexible payment options</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Fleet</h2>
+                <p>Explore our well-maintained vehicles that combine comfort, style, and reliability.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/sedan.jpeg" alt="Sedan">
+                    <div class="overlay">
+                        <h3>Premium Sedans</h3>
+                        <p>Comfort for 4 passengers</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/suv.jpeg" alt="SUV">
+                    <div class="overlay">
+                        <h3>Luxury SUVs</h3>
+                        <p>Spacious and powerful</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/swift.jpeg" alt="Swift">
+                    <div class="overlay">
+                        <h3>Swift</h3>
+                        <p>Economical and reliable</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/ertiga.jpeg" alt="Ertiga">
+                    <div class="overlay">
+                        <h3>Ertiga</h3>
+                        <p>Family favorite</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/scorpio.jpeg" alt="Scorpio">
+                    <div class="overlay">
+                        <h3>Scorpio M2D</h3>
+                        <p>Rugged and reliable</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/minibus.jpeg" alt="Mini Bus">
+                    <div class="overlay">
+                        <h3>Mini Buses</h3>
+                        <p>Group travel made easy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Book Your Ride</h2>
+                <p>Fill out the form below and we'll get back to you shortly to confirm your booking.</p>
+            </div>
+            <form class="contact-form" id="bookingForm">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="contactNumber">Contact Number</label>
+                    <input type="tel" id="contactNumber" name="contactNumber" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="pickupLocation">Pickup Location</label>
+                    <input type="text" id="pickupLocation" name="pickupLocation" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="dropLocation">Drop Location</label>
+                    <input type="text" id="dropLocation" name="dropLocation" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="travelDate">Travel Date</label>
+                    <input type="date" id="travelDate" name="travelDate" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="passengers">Number of Passengers</label>
+                    <input type="number" id="passengers" name="passengers" class="form-control" min="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="vehicleType">Vehicle Type Preference</label>
+                    <select id="vehicleType" name="vehicleType" class="form-control" required>
+                        <option value="">Select Vehicle</option>
+                        <option value="Sedan">Sedan</option>
+                        <option value="SUV">SUV</option>
+                        <option value="Swift">Swift</option>
+                        <option value="Ertiga">Ertiga</option>
+                        <option value="Scorpio M2D">Scorpio M2D</option>
+                        <option value="Mini Bus">Mini Bus</option>
+                        <option value="Traveller">Traveller</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Additional Message or Special Requirements</label>
+                    <textarea id="message" name="message" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit Booking Request</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Samartha Tours and Travels</h3>
+                    <p>Your trusted partner for comfortable and reliable travel experiences across India.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <a href="#home">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#gallery">Our Fleet</a>
+                    <a href="#contact">Book Now</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-phone-alt"></i> +91 7038581800</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Operating Across All India</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Samarth Tours and Travels. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

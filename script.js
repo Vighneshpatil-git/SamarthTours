@@ -34,7 +34,7 @@ bookingForm.addEventListener('submit', function(e) {
     const message = document.getElementById('message').value;
     
     // Create WhatsApp message
-    let whatsappMessage = `New Booking Request from Samartha Tours Website:%0A%0A`;
+    let whatsappMessage = `New Booking Request from Samarth Tours Website:%0A%0A`;
     whatsappMessage += `*Name:* ${fullName}%0A`;
     whatsappMessage += `*Contact:* ${contactNumber}%0A`;
     whatsappMessage += `*Email:* ${email || 'Not provided'}%0A`;
